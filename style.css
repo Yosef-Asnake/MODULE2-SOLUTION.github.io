@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    border: 2px solid #000;
+    height: 100vh;
+}
+.icon img{
+    height: 2rem;
+}
+.icon input{
+    width: 50vw;
+}
+.icon img .search{
+    border: 1px solid #000;
+}
+.icon{
+    border-bottom: 2px solid #000;
+}
+.beef{
+    border: 2px solid #000;
+    background-color: #808080;
+}
+.beef h3{
+    font-size: 22px;
+}
+.section-2{
+    height: 100vh;
+}
+.chick{
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    width: 45%;
+    background-color: pink;
+}
+.chicks{
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    width: 45%;
+    background-color: rgb(180, 20, 20);
+    color: #fff;
+}
+.sush{
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    width: 45%;
+    background-color: #e6e6b3;
+}
+.border-bottom{
+    color: 2px solid #000;
+}
+.footer{ 
+    height: 7vh;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    background-color: #adabab;
+}
+@media (max-width: 768px) {
+    .beeef{
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 991px) {
+    .beeef{
+        margin-top: 2rem;
+    }
+    header{
+        height: 150vh;
+        width: 100vw;
+    }
+}
+@media (max-width: 767px) {
+    .beef{
+        margin-top: 2rem;
+    }
+    header{
+        height: 200vh;
+        width: 100vw;
+    }
+}
+@media (max-width: 576px) {
+    header{
+        height: 200vh;
+        width: 106%;
+    }
+}
